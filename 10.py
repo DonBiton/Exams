@@ -34,3 +34,4 @@ cube = power_of(3)  # замыкание для возведения в куб
 
 print(square(5))  # 25
 print(cube(3))  # 27
+print('')
