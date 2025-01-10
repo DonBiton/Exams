@@ -3,13 +3,13 @@ tasks = ['Задача 1', 'Задача 2', 'Задача 3']
 tasks.append('Задача 4')  # Добавить в конец
 print(tasks[2])  # Вывести 3-ю задачу
 
-from collections import deque
+from collections import deque #Очередь (Queue)
 queue = deque([1, 2, 3])
 queue.append(4)  # Добавить элемент в конец
 queue.popleft()  # Удалить элемент с начала
 print(queue) #[2, 3, 4]
 
-deque_obj = deque([1, 2, 3])
+deque_obj = deque([1, 2, 3]) #Дека (Deque)
 deque_obj.appendleft(0)  # Добавить элемент в начало
 deque_obj.append(4)      # Добавить элемент в конец
 print(deque_obj) #[0, 1, 2, 3, 4]
